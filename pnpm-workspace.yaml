@@ -1,0 +1,14 @@
+packages:
+  - apps/*
+  - agents/*
+  - packages/*
+  - providers/*
+  - plugins/*
+  - examples/*
+  - templates/*
+  - docs/*
+  - tooling/*
+
+ignoredBuiltDependencies:
+  - esbuild
+  - workerd

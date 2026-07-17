@@ -1,0 +1,19 @@
+{
+  "name": "codebolt-open-source",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Open-source showcase monorepo for CodeBolt demos, agents, and packages",
+  "packageManager": "pnpm@10.27.0",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build && changeset publish"
+  }
+}

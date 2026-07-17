@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+coverage/
+.turbo/
+.pnpm-store/
+*.log
+.DS_Store
+Thumbs.db
